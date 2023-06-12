@@ -29,6 +29,7 @@ const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
       >
         <img
           className="cursor-pointer object-cover transition duration shadow-xl rounded-t-md w-full h-[12vw]"
+          alt="img"
           src={data.thumbnailUrl}
         />
         <div className="absolute z-10 w-full p-2 transition shadow-md bg-zinc-800 lg:p-4 rounded-b-md">
